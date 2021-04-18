@@ -1,0 +1,214 @@
+Requisição bem sucedida!
+Requisição bem sucedida!
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
+  File "get_file_price_oil.py", line 34
+SyntaxError: Non-ASCII character '\xc3' in file get_file_price_oil.py on line 34, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+Traceback (most recent call last):
+  File "get_file_price_oil.py", line 15, in <module>
+    import schedule
+ModuleNotFoundError: No module named 'schedule'
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
+Traceback (most recent call last):
+  File "get_file_price_oil.py", line 15, in <module>
+    import schedule
+ModuleNotFoundError: No module named 'schedule'
+Traceback (most recent call last):
+  File "get_file_price_oil.py", line 15, in <module>
+    import schedule
+ModuleNotFoundError: No module named 'schedule'
+Traceback (most recent call last):
+  File "get_file_price_oil.py", line 15, in <module>
+    import schedule
+ModuleNotFoundError: No module named 'schedule'
+Traceback (most recent call last):
+  File "get_file_price_oil.py", line 15, in <module>
+    import schedule
+ModuleNotFoundError: No module named 'schedule'
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
+Requisição bem sucedida!
+Juntando os dados
+DATAFRAME G:  1
+DATAFRAME :  3
+DATAFRAME JOIN:  4
+       pocos  price change %_change        data
+0   Cabinda   66.51  +0.61   +0.93%  2021-04-18
+1     Nemba   65.71  +0.61   +0.94%  2021-04-18
+2     Dalia   65.66  +0.61   +0.94%  2021-04-18
+3  Girassol   65.68  +0.37   +0.57%  2021-04-18
