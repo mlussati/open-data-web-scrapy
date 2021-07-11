@@ -12,7 +12,7 @@ develop-eggs/
 dist/
 eggs/
 lib/
-data/
+data/*
 parts/
 sdist/
 var/
