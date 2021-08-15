@@ -11,12 +11,15 @@ import pandas as pd
 import requests
 import logging
 
-from library.lib_treatment import replace_specific, get_list_from_data, read_parse_yaml
+from library.lib_treatment import *
 from datetime import datetime
 from bs4 import BeautifulSoup
 
 
 logging.basicConfig(format='%(asctime)s %(message)s', filename='logs/logstatus_aplication.log', level=logging.INFO)
+
+FILE_MONTH = 'data/month_data/price_oil_dataset.xlsx'
+
 
 def get_df_from_page_html():   
 
@@ -34,14 +37,24 @@ def get_df_from_page_html():
         
         df = pd.read_html(table_str)[2]
         df_g = pd.read_html(table_str)[1]
-
+        
         # Juntando os dados
         logging.warning('Juntando os dados')
-        df_g = df_g[df_g[1].isin(['Girassol SellBuy'])]
-        df = df[df[1].isin(['Cabinda SellBuy', 'Nemba SellBuy', 'Dalia SellBuy'])]
+        
+        if 'SellBuy' in df_g[1].isin(['Girassol SellBuy']):
+            df_g = df_g[df_g[1].isin(['Girassol SellBuy'])]
+        else:
+            df_g = df_g[df_g[1].isin(['Girassol'])]
+        
+        if 'SellBuy' in df[df[1].isin(['Cabinda SellBuy', 'Nemba SellBuy', 'Dalia SellBuy'])]:
+            print('Verdade')
+            df = df[df[1].isin(['Cabinda SellBuy', 'Nemba SellBuy', 'Dalia SellBuy'])]
+        else:
+            print('Falso')
+            df = df[df[1].isin(['Cabinda', 'Nemba', 'Dalia'])]
 
         df_join = df.append(df_g, ignore_index=True)
-
+        
         try:
 
             # Fazendo o tratamento dos dados
@@ -52,7 +65,11 @@ def get_df_from_page_html():
             df_join['%_change'] = df_join['%_change'].apply(get_list_from_data)
             df_join['data'] = datetime.today().strftime('%Y-%m-%d')
             df_join.reset_index(drop=True)
-            df_join.to_excel('data/price_oil_{}.xlsx'.format(datetime.today().strftime('%Y-%m-%d')), index = False, header=True)
+            
+            df_final = read_exist_file(FILE_MONTH)
+            df_all = pd.concat([df_final, df_join])
+            print('ALL: ', df_final)
+            df_all.to_excel(f'{FILE_MONTH}', index = False, header=True)
 
             logging.warning(df_join.head)
             logging.info('Finished')
