@@ -1,8 +1,12 @@
 
 # Open Price Oil -> Web Scrapy
 
-## Sobre
+<a href = "https://links.geneva.com/invite/257b1817-fa14-4e25-8229-1ac613f7f9b5">
+<div align="center"><img src="https://user-images.githubusercontent.com/17861240/131836901-f06d4214-6cdd-4195-b0f3-fa6ef139799b.png" /></div>
+</a>
 
+
+## Sobre
 Este repositório tem como foco oferecer uma aplicação que faz o web scraping em um site dependendo das tratativas do dado que você quer consumir. Mas essa aplicação em si ela irá fazer o scrapy do preço do petróleo diariamente em Angola dos principais poços
 
 Tabela de conteúdos
